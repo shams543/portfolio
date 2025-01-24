@@ -31,8 +31,8 @@ header {
     font-size: 1.8em;
 }
 
-h3{
-    color:#fff;
+h3 {
+    color: #fff;
 }
 
 .navigation {
@@ -53,9 +53,7 @@ h3{
 
 section {
     padding: 100px 0px 100px 30px;
-
 }
-
 
 .main {
     width: 100%;
@@ -88,7 +86,7 @@ main h3 {
     font-weight: 700;
     letter-spacing: 1px;
     margin-top: 10px;
-    margin-bottom: 30px
+    margin-bottom: 30px;
 }
 
 .main-btn {
@@ -121,7 +119,6 @@ main h3 {
     justify-content: center;
     color: #3a6cf4;
     font-size: 2.2em;
-    /*font_weight: 800;*/
     margin-bottom: 30px;
 }
 
@@ -129,7 +126,6 @@ main h3 {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    /*flex-wrap: wrap;*/
 }
 
 .card {
@@ -139,26 +135,17 @@ main h3 {
     border-radius: 10px;
     padding: 25px;
     margin: 15px;
-    /*text-align: center;*/
     transition: 0.7s ease;
-
 }
-
-
 
 .card:hover {
     transform: scale(1.1);
 }
 
-
-
-
 .icon {
     color: #3a6cf4;
     font-size: 8em;
     text-align: center;
-
-
 }
 
 .info {
@@ -166,27 +153,19 @@ main h3 {
     padding: 2px;
 }
 
-.info h3{
+.info h3 {
     color: #3a6cf4;
     font-size: 1.2em;
-    /*font_weight: 700;*/
     margin: 10px;
 }
-
-
-
 
 .projects {
     background-color: #000016;
 }
 
-
-
-.projects .content{
+.projects .content {
     margin-top: 30px;
 }
-
-
 
 .project-card {
     background-color: #fff;
@@ -199,20 +178,19 @@ main h3 {
     transition: 0.7s ease;
 }
 
-.project-card:hover{
+.project-card:hover {
     transform: scale(1.1);
 }
 
-.project-card:hover .project-image{
+.project-card:hover .project-image {
     opacity: 0.9;
 }
 
-.project-image img{
+.project-image img {
     width: 100%;
 }
 
-
-.project-info{
+.project-info {
     padding: 1em;
 }
 
@@ -222,7 +200,7 @@ main h3 {
 }
 
 .project-title {
-    display:flex;
+    display: flex;
     justify-content: space-between;
     text-transform: uppercase;
     font-weight: 800;
@@ -247,28 +225,25 @@ main h3 {
     background-color: #0a49f6;
     transform: scale(1.1);
 }
+
 .more-details {
     text-decoration: none;
     color: #3a6cf4;
 }
 
-.more-details:hover{
+.more-details:hover {
     color: #601cfc;
 }
 
-
-
-
-.contact .icon{
+.contact .icon {
     font-size: 4.5em;
 }
 
-.contact .info h3{
-    color: #000
+.contact .info h3 {
+    color: #000;
 }
 
-
-.contact .info p{
+.contact .info p {
     font-size: 1.5em;
 }
 
@@ -278,7 +253,6 @@ main h3 {
     padding: .5em;
     display: flex;
     justify-content: space-between;
-
 }
 
 .footer-title {
@@ -286,61 +260,59 @@ main h3 {
     font-size: 1.3em;
 }
 
-
 .footer-title span {
     color: #3a6cf4;
 }
 
-
-
 footer .social-icons a {
-    font-size : 1.3em;
+    font-size: 1.3em;
     padding: 0 12px 0 0;
-
 }
 
-
-/* إعدادات الكروت للاستجابة */
 @media (max-width: 1024px) {
     .content {
-        display: grid; /* استخدام شبكة */
-        grid-template-columns: repeat(2, 1fr); /* عمودين */
-        gap: 20px; /* المسافة بين الكروت */
-        justify-items: center; /* تمركز العناصر */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        justify-items: center;
     }
 
     .card {
-        width: 90%; /* تقليل العرض قليلاً */
-        margin: 10px; /* مسافة بين الكروت */
+        width: 90%;
+        margin: 10px;
     }
 }
 
 @media (max-width: 768px) {
     .content {
-        grid-template-columns: 1fr; /* عمود واحد */
-        gap: 15px; /* تقليل المسافة */
+        grid-template-columns: 1fr;
+        gap: 15px;
     }
 
     .card {
-        width: 100%; /* عرض الكرت ليملأ الشاشة */
+        width: 100%;
+    }
+
+    .main h2 span {
+        font-size: 2em;
+        font-size: 1.1em;
     }
 }
 
-/* تحسينات على النصوص والصور */
 .card img {
-    width: 100%; /* ضبط الصورة لتناسب الكرت */
-    height: auto; /* احتفاظ بنسبة الأبعاد */
-    object-fit: cover; /* تغطية المساحة دون تشويه */
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 .card h3 {
-    font-size: 1.5em; /* تقليل حجم النص قليلاً للشاشات الصغيرة */
+    font-size: 1.5em;
 }
 
 .card p {
-    font-size: 1em; /* نص مناسب للأجهزة الصغيرة */
+    font-size: 1em;
 }
-/* إعدادات الكروت للاستجابة */
+
 @media (max-width: 1024px) {
     .content {
         display: grid;
@@ -395,22 +367,4 @@ footer .social-icons a {
 .card p {
     font-size: 1em;
 }
-
-
 </style>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
